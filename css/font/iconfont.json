@@ -1,0 +1,149 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17575161",
+      "name": "爱心眼",
+      "font_class": "aixinyan",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "17575162",
+      "name": "大哭",
+      "font_class": "daku",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "17575163",
+      "name": "开心",
+      "font_class": "kaixin",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "17575164",
+      "name": "害羞害羞",
+      "font_class": "haixiuhaixiu",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "17575165",
+      "name": "难过",
+      "font_class": "nanguo",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "17575166",
+      "name": "惊讶",
+      "font_class": "jingya",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "17575167",
+      "name": "困",
+      "font_class": "kun",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "17575168",
+      "name": "黑线",
+      "font_class": "heixian",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "17575169",
+      "name": "撇嘴",
+      "font_class": "piezui",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "17575170",
+      "name": "平淡",
+      "font_class": "pingdan",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "17575171",
+      "name": "无语",
+      "font_class": "wuyu",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "17575172",
+      "name": "生气",
+      "font_class": "shengqi",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "17575173",
+      "name": "乖巧",
+      "font_class": "guaiqiao",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "17575174",
+      "name": "亲亲",
+      "font_class": "qinqin",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "17575175",
+      "name": "眨眼",
+      "font_class": "zhayan",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "17575176",
+      "name": "着急",
+      "font_class": "zhuoji",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "17575177",
+      "name": "星星眼",
+      "font_class": "xingxingyan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "17575178",
+      "name": "害羞",
+      "font_class": "haixiu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "17575179",
+      "name": "无话可说",
+      "font_class": "wuhuakeshuo",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "17575180",
+      "name": "委屈",
+      "font_class": "weiqu",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    }
+  ]
+}
