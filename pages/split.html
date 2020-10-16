@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/split.css">
+    <script>
+        (function(){
+            console.log(1);
+            var dpr, rem, scale;
+            var docEl = document.documentElement;
+            var fontEl = document.createElement('style');
+            var metaEl = document.querySelector('meta[name="viewport"]');
+            dpr = window.devicePixelRatio || 1;
+            scale = 1 / parseInt(dpr);
+            rem = docEl.clientWidth * parseInt(dpr) / 10;
+            // 设置viewport，进行缩放，达到高清效果
+            metaEl.setAttribute('content', 'width=' + Number(parseInt(dpr) * docEl.clientWidth) + ',initial-scale=' + scale + ',maximum-scale=' + scale + ',minimum-scale=' + scale + ',user-scalable=no');
+            // 设置data-dpr属性，留作的css hack之用
+            docEl.setAttribute('data-dpr', parseInt(dpr));
+            // 设置html的字体
+            var fon = 'font-size:' + rem + 'px';
+            docEl.setAttribute('style',fon );
+            // 动态写入样式
+            // docEl.firstElementChild.appendChild(fontEl);
+            // fontEl.innerHTML = 'html{font-size:' + rem + 'px!important;}';
+            // 给js调用的，某一dpr下rem和px之间的转换函数
+            window.rem2px = function(v) {
+                v = parseFloat(v);
+                return v * rem;
+            };
+            window.px2rem = function(v) {
+                v = parseFloat(v);
+                return v / rem;
+            };
+            window.dpr = dpr;
+            window.rem = rem;
+        })()
+    </script>
+</head>
+<body>
+    <div class="warp flx">
+        <!-- header -->
+        <header class="hd">
+            商品分类
+            <div class="shBtn">
+                <i class="iconfont">&#xe618;</i>
+                搜索
+            </div>
+        </header>
+        <!-- box -->
+        <div class="box">
+            <!-- 推荐 -->
+            <div class="sug flx">
+                <div class="sugPic p1"></div>
+                <div class="sugPic p2"></div>
+                <div class="sugPic p3"></div>
+                <div class="sugPic p4"></div>
+                <div class="sugPic p5"></div>
+                <div class="sugPic p6"></div>
+            </div>
+            <!-- 分类一 -->
+            <div class="sp1">
+                <!-- 标题 -->
+                <div class="sp-tit">商品分类一</div>
+                <!-- 分类 -->
+                <div class="sp1-box flx">
+                    <div class="sp1Pic sp11"></div>
+                    <div class="sp1Pic sp12"></div>
+                    <div class="sp1Pic sp13"></div>
+                    <div class="sp1Pic sp14"></div>
+                    <div class="sp1Pic sp15"></div>
+                    <div class="sp1Pic sp16"></div>
+                </div>
+            </div>
+            <!-- 分类二 -->
+            <div class="sp2">
+                <!-- 标题 -->
+                <div class="sp-tit">商品分类二</div>
+                 <!-- 分类 -->
+                 <div class="sp2-box flx">
+                    <div class="sp2Pic sp21"></div>
+                    <div class="sp2Pic sp22"></div>
+                    <div class="sp2Pic sp23"></div>
+                    <div class="sp2Pic sp24"></div>
+                    <div class="sp2Pic sp25"></div>
+                    <div class="sp2Pic sp26"></div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="ft flx">
+            <span class="ft-btn flx">
+                <span class="icon iconfont">&#xe60b;</span>
+                <span class="txt">首页</span>
+            </span>
+            <span class="ft-btn flx">
+                <span class="icon iconfont">&#xe60c;</span>
+                <span class="txt">分类</span>
+            </span>
+            <span class="ft-btn flx">
+                <span class="icon iconfont">&#xe60d;</span>
+                <span class="txt">购物车</span>
+            </span>
+            <span class="ft-btn flx">
+                <span class="icon iconfont">&#xe60e;</span>
+                <span class="txt">我的</span>
+            </span>
+        </footer>
+    </div>
+</body>
+</html>

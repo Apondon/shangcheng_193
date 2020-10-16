@@ -1,0 +1,160 @@
+html,body{  width:100%;height: 100%;}
+/* 生成font-face */
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('./font/iconfont.woff2') format('woff2'),
+        url('./font/iconfont.woff') format('woff'),
+        url('./font/iconfont.ttf') format('truetype'),
+        url('./font/iconfont.svg#iconfont') format('svg');
+}
+/* 定义iconfont样式 */
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: .25rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.flx{ display: flex; }
+.warp{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+input[type=checkbox]{
+    width: .3rem;
+    height: .3rem;
+}
+/* header */
+.hd{
+    position: relative;
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: .4rem;
+}
+.back{
+    position: absolute;
+    top: 0; bottom: 0;
+    margin: auto;
+    left: .15625rem;
+    font-size: .4rem;
+}
+/* box */
+.box{
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    background: lightgray;
+}
+.cardsItem{
+    width: 100%;
+    height: 6.3rem;
+    background: #fff;
+    margin: .3125rem 0;
+}
+/* 标题 */
+.cds-tit{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-indent: .15625rem;
+    border-bottom: 1px solid lightgray;
+    font-size: .3rem;
+}
+/* 详情 */
+.cds-detail{
+    width: 100%;
+    height: 3rem;
+    padding:.15625rem;
+}
+.cds-img{
+    flex:1;
+    background: lightpink;
+}
+.cds-txt{
+    flex:2;
+    padding-left: .15625rem;
+}
+.txt-ctt{
+    margin-bottom: .3125rem;
+    font-size: .25rem;
+}
+/* 定价 */
+.cds-price{
+    justify-content: space-between;
+    align-items: center;
+}
+.cds-pri{
+    width: 2.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-indent: .3125rem;
+    color: red;
+    font-size: .4rem;
+}
+.cds-del{
+    width: .5rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin-right: .3125rem;
+    border:1px solid;
+}
+/* 总价 */
+.cds-count{
+    justify-content: space-between;
+    align-items: center;
+}
+.cds-cnt{
+    width: 2.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-indent: .3125rem;
+    color: red;
+    font-size: .4rem;
+}
+.cds-btn{
+    width: 1.5rem;
+    height: .5rem;
+    line-height: .5rem;
+    margin-right: .3125rem; 
+}
+.mdf{
+    flex: 1;
+    line-height: .5rem;
+    text-align: center;
+    border:1px solid;
+}
+/* footer */
+.ft{
+    width: 100%;
+    height: 1.25rem;
+    background: #fff;
+    text-align: center;
+}
+/* 全选 */
+.check{
+    flex: 1;
+    line-height: 1.25rem;
+    font-size: .4rem;
+}
+/* 总价 */
+.totalPrice{
+    flex: 3;
+    line-height: 1.25rem;
+    color: red;
+    font-size: .5rem;
+}
+/* 结算 */
+.pay{
+    flex:2;
+    line-height: 1.25rem;
+    background: orangered;
+    color:#fff;
+    font-size: .4rem;
+}
